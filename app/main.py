@@ -11,7 +11,7 @@ from image_generator import generate_image, save_image
 
 load_dotenv()
 
-app = FastAPI(title="Diffusion Pipeline API")
+app = FastAPI(title="Claude Flux Pipeline API")
 
 OUTPUT_DIR = Path("/workspace/jiyong/outputs")
 OUTPUT_DIR.mkdir(exist_ok=True)
