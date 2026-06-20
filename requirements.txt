@@ -1,0 +1,7 @@
+anthropic
+huggingface-hub
+requests
+fastapi
+uvicorn
+python-dotenv
+pillow
